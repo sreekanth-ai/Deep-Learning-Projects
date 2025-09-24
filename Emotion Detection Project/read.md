@@ -1,4 +1,4 @@
-Overview
+### Overview
 
 This project uses a Convolutional Neural Network (CNN) trained on the FER-2013 dataset to detect human emotions from facial expressions in real-time using a webcam.
 
@@ -12,14 +12,14 @@ The model can classify faces into 7 emotions:
 - 😲 Surprise
 - 😐 Neutral
 
-⚙️ Features
+### ⚙️ Features
 
 - Train CNN model on FER2013 dataset
 - Save & load trained model (.keras format)
 - Real-time face detection with OpenCV
 - Live emotion prediction using webcam
 
-📂 Project Structure
+### 📂 Project Structure
 
 emotion-detection/
 - │── emotion_dection using CNN.ipynb       # Script to train CNN model
@@ -28,18 +28,18 @@ emotion-detection/
 - │── fer2013.csv            # Dataset (link or instructions to download)
 - │── README.md              # Project documentation
 
-Dataset
+### Dataset
 
 - This project uses the FER2013 dataset
 - Contains 35,887 labeled face images (48×48 pixels)
 - 7 emotion categories
 
-🙌 Future Improvements
+### 🙌 Future Improvements
 
 - Improve accuracy with deeper CNN / Transfer Learning (VGG16, ResNet)
 - Use DNN-based face detection instead of Haar Cascades
 - Deploy as a WebApp (Flask/Streamlit)
 
-🤝 Contributing
+### 🤝 Contributing
 
 Pull requests are welcome! If you’d like to improve the model or add new features, feel free to fork and contribute.
